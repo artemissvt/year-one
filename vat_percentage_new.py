@@ -1,4 +1,5 @@
 invoice = float(input('Type an amount of invoice: '))
 # print (invoice)
-vat = (invoice % 12)
-print ('The vat percentage of the number you out is', vat) 
+vat = (invoice * 0.12)
+total_amount = float(vat + invoice)
+print ('The total amount after the adition of vat percentage of the number you put is', total_amount) 
